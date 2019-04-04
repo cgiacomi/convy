@@ -57,7 +57,7 @@ feat(lang): add japanese language
 To customize the message validation to your liking simply modify the existing regular expressions in convy-commit-msg.py
 
 ```
-MESSAGE_REGEX = '(feat|fix|perf|docs|chore|style|refactor|test)(?:\(([\w$.\-* ]*)\))?: [\w\d ().,:;+]*'
+MESSAGE_REGEX = '(feat|fix|perf|docs|chore|style|refactor|test|wip)(?:\(([\w$.\-* ]*)\))?: [\w\d ().,:;+]*'
 ```
 
 To test your regex you can simply do so [here](http://pythex.org/)
