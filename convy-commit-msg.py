@@ -5,7 +5,7 @@ import re
 import subprocess
 
 
-MESSAGE_REGEX = '^(feat|fix|perf|docs|chore|style|refactor|test)(?:\(([\w$.\-* ]*)\))?: [\w\d ().,:;+]*$'
+MESSAGE_REGEX = '^(feat|fix|perf|docs|chore|style|refactor|test|wip)(?:\(([\w$.\-* ]*)\))?: [\w\d ().,:;+]*$'
 
 
 def valid_commit_message(message):
