@@ -8,9 +8,9 @@ http://karma-runner.github.io/0.10/dev/git-commit-msg.html
 
 ## Limitation
 
-Currently only supports the header with a <subject>.
+Currently only supports the header with a 'subject'.
 
-<body> and <footer> parts of conventional commit messages are not supported.
+'body' and 'footer' parts of conventional commit messages are not supported.
 
 
 ## Requirements
