@@ -1,11 +1,10 @@
 #!/usr/bin/python
 
-import sys
 import re
 import subprocess
+import sys
 
-
-MESSAGE_REGEX = '^(feat|fix|perf|docs|chore|style|refactor|test|wip)(?:\(([\w$.\-* ]*)\))?: [\w\d ().,:;+]*$'
+MESSAGE_REGEX = '^(feat|fix|perf|docs|chore|style|refactor|test|wip)(?:\(([\w$.\-* ]*)\))?: [\w\d r\n \- <@>().,:;+]*$'
 
 # Based on https://stackoverflow.com/a/45427753/772175
 class Colors:
